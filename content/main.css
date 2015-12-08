@@ -3,8 +3,11 @@ body {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
+    background-color: #000040;
     
 }
+
+
 #nav {
     background-color: #222;
 }
@@ -58,6 +61,19 @@ body {
 	background-color: dimgray;
 }
 
+.guitar {
+    height: 50%;
+    width: 50%;
+}
+.guitarZ {
+    height: 45%;
+    width: 45%;
+}
+.guitarA {
+    height: 90%;
+    width: 90%;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-weight: bold;
 	
@@ -71,7 +87,7 @@ h1 {
 h2 {
 	font-size: 2em;
 	line-height: 1.6em;
-    color: goldenrod;
+    color: darkorange;
 }
 
 h3 {
@@ -148,4 +164,7 @@ h6 {
     text-align: center;
     padding: 0.5% 3%;
     margin: 0;
+}
+p {
+    color: #FFB732;
 }
