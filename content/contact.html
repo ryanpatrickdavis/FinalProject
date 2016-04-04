@@ -37,46 +37,49 @@
   <!-- MAIN CONTENT -->
 
   <main>
-    <img class="guitar" src="assets\images\guitarView.jpg" cite="http://7-themes.com/data_images/out/76/7033300-electric-guitar.jpg" alt="electric Guitar>
+    <img class="guitar" src="assets\images\guitarView.jpg" cite="http://7-themes.com/data_images/out/76/7033300-electric-guitar.jpg" alt="electric Guitar">
     <h2>Contact</h2>
     <p>Need to get in touch with us, or want to sell us your guitar? Please fill out the form below
       let us know what you need and if we have met all your needs.
     </p>
   </main>
+  
+  <br>
+  <br>
   <section class="formSection">
                 
                 <form action="processform.php" method="post" id="contactForm" class="forms"> <!-- action is the link to where it goes, method says whether to "get" or "post", id is to target it later, class is to style it -->
                 
                 <fieldset class="contact">
                  
-                 <legend>Guitar Gods Contact Form</legend>
+                 <legend><p>Guitar Gods Contact Form</p></legend>
                    
                   
                   <div class="row formGroup"><!-- div.r -->
-                   <label for="firstName">First Name:</label> <!-- this label is FOR this placeholder -->
+                   <label for="firstName"><p>First Name:</p></label> <!-- this label is FOR this placeholder -->
                    <input type="text" id="firstName" name="firstName" class="formControl"placeholder="Enter Your First Name" required autofocus><br> <!-- autofocus is an event that gives focus to an element, it makes the name box start as the area where you are ready to type, and for some reason it makes the browser color the box blue after restyling the page -->
                     </div>
                     
                     <div class="row formGroup"> <!-- this div class is just a generic class -->
-                   <label for="lastName">Last Name:</label> 
+                   <label for="lastName"><p>Last Name:</p></label> 
                    <input type="text" id="lastName" name="lastName" class="formControl"placeholder="Enter Your Last Name" required><br>
                    </div>
                    
                    <div class="row formGroup">
-                   <label for="email">Email:</label>
+                   <label for="email"><p>Email:</p></label>
                    <input type="email" id="email" name="email" class="formControl"placeholder="Enter Your email@company name" required><br>
                    </div>
                    
                     <div class="row formGroup">
-                    <label for="phone">Phone:</label>
+                    <label for="phone"><p>Phone:</p></label>
                    <input type="tel" id="phone" name="phone" class="formControl"placeholder="Phone (XXX) XXX-XXXX" <required>                    </required><br>
                    </div>
                    
                    <div class="row formGroup">
-                    <label for="message">Message:</label>
-                   <input type="textarea" id="message" name="message" class="formControl"placeholder="Enter Your Message" >
+                    <label for="message"><p>Message:</p></label>
+                  <textarea rows="4" cols="50" id="message" name="message" class="formControl"placeholder="Enter Your Message" ></textarea>
                     </div>
-                 
+                 <br>
                    <label for="submit"></label> <!-- this label is FOR this placeholder -->
                    <input type="submit" id="submitButton" name="submitButton" value="Send" class="button"<br>
                   
@@ -85,7 +88,7 @@
                 
             </section>
   <footer>
-    <p><small>Copyright Guitar Gods</small></p>
+    <p><small>&copy Copyright Guitar Gods</small></p>
   </footer>
  
   <!-- end div#container -->
